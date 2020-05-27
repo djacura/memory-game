@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Roboto+Slab:wght@400;500;600;700&display=swap');
 
+
 /* -- background image -- */
 
 .background {
@@ -23,7 +24,16 @@
 .title {
     font-family: 'Roboto Mono', monospace;
     color: white;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.title-2 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
     padding-bottom: 30px;
+    text-decoration: underline;
 }
 
 .lead {
