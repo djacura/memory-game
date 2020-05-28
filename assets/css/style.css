@@ -5,13 +5,13 @@
 
 /* -- background image -- */
 
-.background {
-  height: 100vh;
-   background: url('../images/image-1.jpg') no-repeat center center fixed;
+body {
+    background: url(../images/image-1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 /* -- jumbotron -- */
@@ -26,7 +26,7 @@
     color: white;
     padding-bottom: 40px;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .title-2 {
@@ -40,3 +40,14 @@
     font-family: 'Roboto Slab', serif;
     color: white;
 }
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
