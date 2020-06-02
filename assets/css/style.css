@@ -6,7 +6,7 @@
 /* -- background image -- */
 
 body {
-    background: url(../images/image-1.jpg) no-repeat center center fixed;
+    background: url(../images/back-image-1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,3 +53,9 @@ body {
 
 /* -- Game -- */
 
+.card {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+}
