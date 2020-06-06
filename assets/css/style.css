@@ -54,27 +54,54 @@ body {
 /* -- Game -- */
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.bar {
-    padding: 50px;
+.game-title {
+    padding: 40px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
 }
 
 .card {
-  width: 150px;
-  height: 150px;
-  margin: 10px;
-  position: relative;
-  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    border-radius: 25px;
 }
 
 .memory-game {
-  width: 720px;
-  height: 720px;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
+    width: 720px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-bottom {
+    background-color: black; 
+    width: 700px;
+    height: 370px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* timer */
+
+.timer {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    padding-top: 5px;
+}
+
+#display {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 10px;
 }
