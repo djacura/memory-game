@@ -67,6 +67,10 @@ body {
     font-size: 70px;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .card {
     width: 150px;
     height: 150px;
