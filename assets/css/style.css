@@ -95,6 +95,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    perspective: 1000px;
 }
 
 .memory-card{
@@ -102,6 +103,8 @@ a:hover {
     position: relative;
     margin: 5px; 
     transform: scale(1);
+    transform-style: preserve-3d;
+    transition: .5s;
 }
 
 .memory-card:active {
@@ -120,6 +123,11 @@ a:hover {
     position: absolute;
     border-radius: 25px;
     background: white;
+    backface-visibility: hidden;
+}
+
+.front-face {
+    transform: rotateY(180deg);
 }
 
 /* -- timer -- */
