@@ -68,7 +68,7 @@ body {
 }
 
 .game-title {
-    padding: 40px;
+    padding: 20px;
     font-family: 'Roboto Mono', monospace;
     color: white;
     text-transform: uppercase;
@@ -142,4 +142,64 @@ a:hover {
     color: white;
     font-size: 60px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  
+.memory-game {
+    width: 375px;
+    height: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    perspective: 1000px;
+}
+
+.game {
+    width: 375px;
+    height: 375px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-bottom {
+    background-color: black;
+    width: 345px;
+    height: 180px;
+    margin-top: 10px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.game-title {
+    padding: 8px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.timer {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    padding-top: 10px;
+    font-size: 35px;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+#display {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.title-2 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    padding-bottom: 8px;
+    text-decoration: underline;
+    font-size: 25px;
 }
