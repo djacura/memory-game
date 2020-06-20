@@ -147,8 +147,8 @@ a:hover {
 @media (max-width: 600px) {
   
 .memory-game {
-    width: 375px;
-    height: 375px;
+    width: 365px;
+    height: 365px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -166,7 +166,7 @@ a:hover {
 .card-bottom {
     background-color: black;
     width: 345px;
-    height: 180px;
+    height: 160px;
     margin-top: 10px;
     text-align: center;
     overflow: hidden;
@@ -178,7 +178,7 @@ a:hover {
     font-family: 'Roboto Mono', monospace;
     color: white;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .timer {
@@ -192,7 +192,7 @@ a:hover {
 
 #display {
     color: white;
-    font-size: 70px;
+    font-size: 60px;
     margin-bottom: 20px;
 }
 
