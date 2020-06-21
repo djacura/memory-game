@@ -144,7 +144,7 @@ a:hover {
     margin-bottom: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   
 .memory-game {
     width: 350px;
@@ -155,8 +155,8 @@ a:hover {
     perspective: 1000px;
 }
 .game {
-    width: 375px;
-    height: 375px;
+    width: 350px;
+    height: 600px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -164,7 +164,7 @@ a:hover {
 
 .card-bottom {
     background-color: black;
-    width: 345px;
+    width: 320px;
     height: 155px;
     margin-top: 10px;
     text-align: center;
