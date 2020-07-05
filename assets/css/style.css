@@ -87,6 +87,14 @@ a:hover {
     text-align: center;
 }
 
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    margin: auto;
+}
+
 /* -- memory cards -- */
 
 .memory-game {
