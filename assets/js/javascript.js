@@ -34,12 +34,13 @@ function flipCard() {
 
 function checkForMatch() {
 
-    if (firstCard.dataset.card === secondCard.dataset.card) {
+    if (firstCard.dataset.card === secondCard.dataset.card) {  
 
     // the cards match!
 
     disableCards();
-    
+    finishGame()
+
     } else {
 
     // the cards do not match!
@@ -91,6 +92,18 @@ function resetBoard() {
     });
 })();
 
+function finishGame() {
+
+    if ($(".memory-card.flip").length == $(".memory-card").length) {
+        //All card elements have class flip
+        $('.modal').modal('show')
+    }; 
+};
+
+function refreshPage(){
+    window.location.reload();
+} 
+
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
@@ -119,4 +132,3 @@ jQuery(function ($) {
         display = $('#display');
     startTimer(thirtySeconds, display);
 });
-
