@@ -109,7 +109,7 @@
 
 	</section>
 
-    <div class="modal" tabindex="-1" role="dialog">
+    <div class="modal modal-win" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header justify-content-center">
@@ -120,6 +120,22 @@
       </div>
       <div class="modal-footer justify-content-center">
         <button type="submit"  class="btn btn-success" onclick="refreshPage()">Restart Game</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal modal-lose" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header justify-content-center">
+        <h5 class="modal-title">Better Luck Next Time</h5>
+      </div>
+      <div class="modal-body">
+        <img src="assets/images/mario-lose.gif" alt="mario win GIF">
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button type="submit"  class="btn btn-danger" onclick="refreshPage()">Restart Game</button>
       </div>
     </div>
   </div>

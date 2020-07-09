@@ -78,12 +78,17 @@ function unflipCards() {
 
 function resetBoard() {
 
+    // this function allows the board to reset once matched cards have been found.
+
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
 
 } 
 
 (function shuffleCards() {
+
+    // this function is for shuffling the cards at the start of the game.
+
     cards.forEach(card => {
 
         let randomPos = Math.floor(Math.random() * 12);
@@ -95,12 +100,12 @@ function resetBoard() {
 function finishGame() {
 
     if ($(".memory-card.flip").length == $(".memory-card").length) {
-        //All card elements have class flip
-        $('.modal').modal('show')
+        //All card elements have class flip then show win modal.
+        $('.modal-win').modal('show')
     }; 
 };
 
-function refreshPage(){
+function refreshPage(){  //function to reload webpage
     window.location.reload();
 } 
 
@@ -122,7 +127,8 @@ function startCountdown(seconds) {
 
       if (counter <= 0) {
         clearInterval(interval);
-        
+        $('.modal-lose').modal('show')
+
       }
     }, 1000);
 
