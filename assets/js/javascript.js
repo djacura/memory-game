@@ -136,6 +136,6 @@ function startCountdown(seconds) {
 
 jQuery(function ($) {
         display = $('#display');
-    startCountdown(31, display);
+    startCountdown(61, display);
 }); 
 
