@@ -132,10 +132,11 @@ function startCountdown(seconds) {
       }
     }, 1000);
 
-}
+};
 
-jQuery(function ($) {
+document.addEventListener('click', function() {
+
         display = $('#display');
-    startCountdown(61, display);
-}); 
+        startCountdown(61, display);
 
+}, { once: true });
