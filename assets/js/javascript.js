@@ -5,6 +5,7 @@ const cards = document.querySelectorAll('.memory-card');
 let hasFlippedCard = false;
 let lockBoard = false; // using this so that you can't click multiple cards at once before check for match.
 let firstCard, secondCard;
+let timerVar = false;
 
 function flipCard() {
     if (lockBoard) return;
@@ -18,13 +19,14 @@ function flipCard() {
 
       hasFlippedCard = true;
       firstCard = this;
-
+      
       return;
   }
 
     // second click
 
     secondCard = this;
+    timerVar = true;
 
     checkForMatch();
   
@@ -117,7 +119,8 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 
 function startCountdown(seconds) {
 
-  let counter = seconds;
+
+    let counter = seconds;
 
     const interval = setInterval(() => {
 
@@ -132,11 +135,20 @@ function startCountdown(seconds) {
       }
     }, 1000);
 
+
+
 };
 
-document.addEventListener('click', function() {
+
+$(".memory-card").click(function() {
+  
+    console.log(timerVar);
+
+    if(!timerVar) {
 
         display = $('#display');
         startCountdown(61, display);
 
-}, { once: true });
+    };
+
+});
