@@ -98,14 +98,6 @@ function resetBoard() {
     });
 })();
 
-/*function finishGame() {
-
-    if ($(".memory-card.flip").length == $(".memory-card").length) {
-        //All card elements have class flip then show win modal.
-        $('.modal-win').modal('show')
-    }; 
-};*/
-
 function refreshPage(){  //function to reload webpage
     window.location.reload();
 } 
@@ -119,13 +111,13 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 function startCountdown(seconds) {
 
 
-    let counter = seconds;
+        let counter = seconds;
 
-    const interval = setInterval(() => {
+        const interval = setInterval(() => {
 
-      counter--;
+        counter--;
 
-    display.text(counter);
+        display.text(counter);
 
         if ($(".memory-card.flip").length == $(".memory-card").length) {
         //All card elements have class flip then show win modal.
@@ -136,24 +128,21 @@ function startCountdown(seconds) {
 
         else if (counter <= 0) {
         clearInterval(interval);
+        // if the timer reaches zero then show lose modal.
         $('.modal-lose').modal('show')
 
       };
     }, 1000);
 
-
-
 };
 
 
 $(".memory-card").click(function() {
-  
-    console.log(timerVar);
 
     if(!timerVar) {
-
+        //function to start the timer when the you click the first card.
         display = $('#display');
-        startCountdown(61, display);
+        startCountdown(45);
 
     };
 
