@@ -41,7 +41,6 @@ function checkForMatch() {
     // the cards match!
 
     disableCards();
-    finishGame()
 
     } else {
 
@@ -99,13 +98,13 @@ function resetBoard() {
     });
 })();
 
-function finishGame() {
+/*function finishGame() {
 
     if ($(".memory-card.flip").length == $(".memory-card").length) {
         //All card elements have class flip then show win modal.
         $('.modal-win').modal('show')
     }; 
-};
+};*/
 
 function refreshPage(){  //function to reload webpage
     window.location.reload();
@@ -128,11 +127,18 @@ function startCountdown(seconds) {
 
     display.text(counter);
 
-      if (counter <= 0) {
+        if ($(".memory-card.flip").length == $(".memory-card").length) {
+        //All card elements have class flip then show win modal.
+        $('.modal-win').modal('show')
+        clearInterval(interval);
+        return;
+    } 
+
+        else if (counter <= 0) {
         clearInterval(interval);
         $('.modal-lose').modal('show')
 
-      }
+      };
     }, 1000);
 
 
