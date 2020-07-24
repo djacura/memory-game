@@ -230,3 +230,9 @@ a:hover {
     background: white;
     backface-visibility: hidden;
 }
+
+.container-fluid {
+    padding-left: 0px;
+}
+
+}
