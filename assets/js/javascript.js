@@ -108,10 +108,10 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 
 // Timer javascript
 
-function startCountdown(seconds) {
+function startCountdown() {
 
 
-        let counter = seconds;
+        let counter = document.getElementById("display").innerHTML;
 
         const interval = setInterval(() => {
 
@@ -142,8 +142,9 @@ $(".memory-card").click(function() {
     if(!timerVar) {
         //function to start the timer when the you click the first card.
         display = $('#display');
-        startCountdown(45);
+        startCountdown();
 
     };
 
 });
+
