@@ -235,4 +235,8 @@ a:hover {
     padding: 0px;
 }
 
+.bottom-box {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 }
