@@ -99,11 +99,12 @@
 			<div class="card-bottom">
 				<h1 class="timer">Timer</h1>
 				<div id="display">
-					45
+					60
 				</div>
 				<h1 class="title-2">Rules</h1>
 				<p class="lead">Just a quick reminder of the rules, click each card and flip it over to try and match
-					pairs together. Also the timer above will start when you have clicked your first card.</p>
+					pairs together. Also the timer above will start when you have clicked your first card. click the
+					title to go back to the start.</p>
 				<p class="lead"></p>
 			</div>
 		</div>
@@ -116,13 +117,18 @@
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-header justify-content-center">
-					<h5 class="modal-title">Congratulations You Did It!</h5>
+					<h5 class="modal-title">Congratulations You Did It On Easy!</h5>
 				</div>
 				<div class="modal-body">
 					<img src="assets/images/mario-win.gif" alt="mario win GIF">
-      </div>
+                </div>
+					<div class="modal-footer justify-content-center">
+						<h5 class="modal-title">Why Not Try It On Medium Difficulty?</h5>
+					</div>
 					<div class="modal-footer justify-content-center">
 						<button type="submit"  class="btn btn-success" onclick="refreshPage()">Restart Game</button>
+						<a class="btn btn-warning" href="game-medium.html" role="button">Medium Difficulty!</a>
+                        <a class="btn btn-secondary" href="index.html" role="button">Main Menu</a>
 					</div>
 				</div>
 			</div>
@@ -140,6 +146,7 @@
       </div>
 						<div class="modal-footer justify-content-center">
 							<button type="submit"  class="btn btn-danger" onclick="refreshPage()">Restart Game</button>
+                            <a class="btn btn-secondary" href="index.html" role="button">Main Menu</a>
 						</div>
 					</div>
 				</div>

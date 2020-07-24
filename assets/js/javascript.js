@@ -3,7 +3,7 @@ const cards = document.querySelectorAll('.memory-card');
 // setting up variables
 
 let hasFlippedCard = false;
-let lockBoard = false; // using this so that you can't click multiple cards at once before check for match.
+let lockBoard = false;   // using this so that you can't click multiple cards at once before check for match.
 let firstCard, secondCard;
 let timerVar = false;
 
