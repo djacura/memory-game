@@ -122,6 +122,7 @@ function startCountdown() {
         if ($(".memory-card.flip").length == $(".memory-card").length) {
         //All card elements have class flip then show win modal.
         $('.modal-win').modal('show')
+        winAudio.play();
         clearInterval(interval);
         return;
     } 
@@ -130,6 +131,7 @@ function startCountdown() {
         clearInterval(interval);
         // if the timer reaches zero then show lose modal.
         $('.modal-lose').modal('show')
+        loseAudio.play();
 
       };
     }, 1000);
@@ -148,3 +150,7 @@ $(".memory-card").click(function() {
 
 });
 
+// adding sounds
+
+var winAudio = new Audio('assets/sounds/win-fanfare.mp3');
+var loseAudio = new Audio('assets/sounds/lose-the-game.mp3');

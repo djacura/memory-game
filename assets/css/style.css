@@ -43,7 +43,6 @@ body {
 }
 
 .vertical-center {
-    min-height: 100%;
     min-height: 100vh;
     width: 100%;
     justify-content: center;
@@ -153,7 +152,9 @@ a:hover {
 }
 
 @media (max-width: 800px) {
-  
+
+/* -- media query for mobile use -- */
+
 .memory-game {
     width: 350px;
     height: 340px;
