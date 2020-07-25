@@ -86,6 +86,14 @@ a:hover {
     text-align: center;
 }
 
+/* -- modals -- */
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    text-align: center;
+}
+
 .modal-body {
     position: relative;
     -ms-flex: 1 1 auto;

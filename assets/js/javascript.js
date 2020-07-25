@@ -19,7 +19,9 @@ function flipCard() {
 
       hasFlippedCard = true;
       firstCard = this;
-      
+      winAudio.play()
+      winAudio.pause()
+
       return;
   }
 
