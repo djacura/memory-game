@@ -19,8 +19,6 @@ function flipCard() {
 
       hasFlippedCard = true;
       firstCard = this;
-      winAudio.play()
-      winAudio.pause()
 
       return;
   }
@@ -152,7 +150,15 @@ $(".memory-card").click(function() {
 
 });
 
-// adding sounds
+// adding sounds.
 
 var winAudio = new Audio('assets/sounds/win-fanfare.mp3');
 var loseAudio = new Audio('assets/sounds/lose-the-game.mp3');
+
+// this functio was so i can play sounds on IOS mobile.
+
+function myPlay(){
+    var audio = new Audio('assets/sounds/win-fanfare.mp3');
+    audio.play();
+    audio.pause();
+}
