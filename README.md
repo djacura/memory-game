@@ -1,96 +1,85 @@
-# Your Project's Name
+# Memory Game
 
-One or two paragraphs providing an overview of your project.
+This is a memory game, I have created using HTML, CSS and Javascript. the website is intended for users to be able to play a memory game where they flip cards over and try to find matching pairs, once the first card is flipped over the timer starts, they then have until the timer runs out to finish the game or they have to start over again.
 
-Essentially, this part is your sales pitch.
+## Comments
 
-## UX
+When I first started this project I wanted to creat a colour matching memory game like simon says but I couldn't get my head round the coding or design of it so I changed the whole game and tried something different and went with a memory card game instead.
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## UX 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+I wanted to create this website to have a place where people could come and play this game and have a bit of fun, I also wanted to create this game because I am a gamer myself and wanted something that I found fun to play and could share that with other people and showcase my love for games.
 
-- As a user type, I want to perform an action, so that I can achieve a goal.
+This is a wireframe mock up that I designed for this project. [Download Wireframe Here]()
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+user stories of this website include:
+
+* As a player, I want to play a memory game, so I can improve my memory.
+* As a player, I want a challenge, so I want different difficulty settings.
+* As a Player, I want to see instructions, so I Know how to play the game. 
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+* A main Menu with instructions on how to play the game.
+* buttons for links to different difficulty settings.
+* different pages for each difficulty setting.
+* modals for whether you win or you lose. 
 
-### Existing Features
+## Features Left to Implement
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
+* One feature I would like to add would be the ability to add a leaderboard to the website so that you can see who has the highest scores.
+* with the leaderboard feature I would like to add the ability to login to the website and then this would be able to track users and their scores.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Here is list of the Technologies that I used to Implement the site:
 
-- [JQuery](https://jquery.com)
-  - The project uses **JQuery** to simplify DOM manipulation.
+* HTML/CSS
+* Bootstrap 4
+* Font Awesome and Google Fonts
+* Javascript and Jquery
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+This is a List of the testing that was carried out on the Website and all testing was conducted manually.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+I created the website mainly on my PC using Chrome browser.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+* Checked that the webpage worked on different browsers I used chrome, Firefox and edge. 
+* Checked that I could not click too many cards at once.
+* Checked that all the links on the page and modals all worked as needed.
 
-1. Contact form:
-   1. Go to the "Contact Us" page
-   2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
+I also had 10 people test the game for me and could not find anything abnormal with the game. the only thing that was wrong was the music for the modals could not be played on IOS mobile or safari browsers. as I didn't have access to safari or an IOS device I could not test this during development.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Here is a link to screenshots of the code being checked on Validation websites. [Links Here](https://github.com/djacura/memory-game/tree/master/assets/testing) 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The site is deployed on GitHub pages, directly from the master branch. All further commits will be on the master branch. A cloned site can be deployed on GitHub via the following steps:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+* Go to the setting menu on the GitHub repository
+* Scroll down to find the 'GitHub Pages' subtitle and change the source to 'master branch'
+* A link will appear beneath the 'GitHub Pages' subtitle with your hosted site.
 
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+The site can be cloned to a local repository by using the following link (GitHub guide link [here](https://help.github.com/en/articles/cloning-a-repository)):
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+* The Project is on GitHub pages see link here. [Memory Game MS2 Project Pages](https://djacura.github.io/Muse/)
+* Also see the Link for the GitHub Repository here. [Memory Game MS2 Project Repository](https://djacura.github.io/memory-game/)
 
 ## Credits
 
-### Content
+I used most of the code from bootstrap for the HTML part of the website, and for the Javascript I received inspiration for this project from freecodecamp.net and their version of a memory card game and some code was taken from there for my project.
 
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+## Media
 
-### Media
+these are the websites I used to gather the media for my site.
 
-- The photos used in this site were obtained from ...
-
-### Acknowledgements
-
-- I received inspiration for this project from X
-
-## Credit
-
-freesoundeffect.net
-https://wallpaperplay.com/board/neon-80s-wallpapers
-https://logos.fandom.com/wiki/Super_Mario_Party
-https://www.memozor.com/memory-games/printable-memory-games/for-kids/mario-kart
-https://gifer.com/
+* freesoundeffect.net (for the sounds)
+* https://wallpaperplay.com/board/neon-80s-wallpapers (for the backround images)
+* https://logos.fandom.com/wiki/Super_Mario_Party (for the super mario logo)
+* https://www.memozor.com/memory-games/printable-memory-games/for-kids/mario-kart (for the card images)
+* https://gifer.com/ (for the modals)
 
 
-wireframe link  https://f1f05011-2962-4c0e-8a51-90a03f6edde4.ws-eu01.gitpod.io/files/download/?id=01df2f94-9286-4033-9b0d-452d883af96a 
+
+
