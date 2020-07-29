@@ -10,7 +10,7 @@ When I first started this project I wanted to creat a colour matching memory gam
 
 I wanted to create this website to have a place where people could come and play this game and have a bit of fun, I also wanted to create this game because I am a gamer myself and wanted something that I found fun to play and could share that with other people and showcase my love for games.
 
-This is a wireframe mock up that I designed for this project. [Download Wireframe Here]()
+This is a wireframe mock up that I designed for this project. [Download Wireframe Here](https://github.com/djacura/memory-game/raw/master/assets/wireframe/memory%20game%20wireframe.pdf)
 
 user stories of this website include:
 
