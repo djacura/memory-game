@@ -63,8 +63,8 @@ The site is deployed on GitHub pages, directly from the master branch. All furth
 
 The site can be cloned to a local repository by using the following link (GitHub guide link [here](https://help.github.com/en/articles/cloning-a-repository)):
 
-* The Project is on GitHub pages see link here. [Memory Game MS2 Project Pages](https://djacura.github.io/Muse/)
-* Also see the Link for the GitHub Repository here. [Memory Game MS2 Project Repository](https://djacura.github.io/memory-game/)
+* The Project is on GitHub pages see link here. [Memory Game MS2 Project Pages](https://djacura.github.io/memory-game/)
+* Also see the Link for the GitHub Repository here. [Memory Game MS2 Project Repository](https://github.com/djacura/memory-game)
 
 ## Credits
 
