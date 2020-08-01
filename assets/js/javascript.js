@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 const cards = document.querySelectorAll('.memory-card');
 
 // setting up variables
@@ -30,7 +32,7 @@ function flipCard() {
 
     checkForMatch();
   
-};
+}
 
 // does the card match?
 
@@ -49,7 +51,7 @@ function checkForMatch() {
     unflipCards();
         
     }
-};
+}
 
 function disableCards() {
 
@@ -121,7 +123,7 @@ function startCountdown() {
 
         if ($(".memory-card.flip").length == $(".memory-card").length) {
         //All card elements have class flip then show win modal.
-        $('.modal-win').modal('show')
+        $('.modal-win').modal('show');
         winAudio.play();
         clearInterval(interval);
         return;
@@ -130,13 +132,13 @@ function startCountdown() {
         else if (counter <= 0) {
         clearInterval(interval);
         // if the timer reaches zero then show lose modal.
-        $('.modal-lose').modal('show')
+        $('.modal-lose').modal('show');
         loseAudio.play();
 
-      };
+      }
     }, 1000);
 
-};
+}
 
 
 $(".memory-card").click(function() {
@@ -146,7 +148,7 @@ $(".memory-card").click(function() {
         display = $('#display');
         startCountdown();
 
-    };
+    }
 
 });
 
@@ -155,3 +157,4 @@ $(".memory-card").click(function() {
 var winAudio = new Audio('assets/sounds/win-fanfare.mp3');
 var loseAudio = new Audio('assets/sounds/lose-the-game.mp3');
 
+/*jshint esversion: 6 */
