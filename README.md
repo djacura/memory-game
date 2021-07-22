@@ -2,6 +2,8 @@
 
 This is a memory game, I have created using HTML, CSS and Javascript. the website is intended for users to be able to play a memory game where they flip cards over and try to find matching pairs, once the first card is flipped over the timer starts, they then have until the timer runs out to finish the game or they have to start over again.
 
+See the Live game [here](https://djacura.github.io/memory-game/)
+
 ## Comments
 
 When I first started this project I wanted to creat a colour matching memory game like simon says but I couldn't get my head round the coding or design of it so I changed the whole game and tried something different and went with a memory card game instead.
